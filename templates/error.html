@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8d7da;
+            font-family: Arial, sans-serif;
+            color: #721c24;
+        }
+        .error-container {
+            text-align: center;
+            background-color: #f8d7da;
+            padding: 20px;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .error-container .icon {
+            font-size: 50px;
+        }
+        .error-container .message {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        code {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #f1f1f1;
+            border-radius: 5px;
+            color: #721c24;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="icon">❌</div>
+        <div class="message">An error has occurred:</div>
+        <code>'error': 'Anomalous upload detected!'</code>
+    </div>
+    <a href="/" class="btn btn-primary mt-3">Go Back</a>
+</body>
+</html>
