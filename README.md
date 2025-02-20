@@ -2,7 +2,7 @@
 # Data-Duplication-Alert-System
 =======
 # Data Download Duplication Alert System (DDAS) 
-# Author: IPsqSoftTech
+# Author: Freelancer
 # Date: On Going
 # Version: 1.0
 # Description: 
@@ -28,12 +28,7 @@ pip install flask flask-sqlalchemy flask-cors hashlib
 pip install eventlet
 ```
 
-# uploads/ (Uploaded files directory)
 
-
-```bash
-mkdir uploads
-```
 
 ### You can set the permissions using the following command:
 ```bash
@@ -46,11 +41,4 @@ chmod 755 uploads/
 - **Improved Logging:** Enhance error handling and logging for better traceability, using tools like **Sentry** or **Loggly**.
 - **Model Deployment:** If the models grow large or require significant resources, consider deploying them using a model server (e.g., **TensorFlow Serving, TorchServe**).
 
-![alt text](pic2.png)
-
-![alt text](pic1.png)
-
-![alt text](pic3.png)
-
-![alt text](pic4.png)
 >>>>>>> 864b64c (Updatted code for DDAS)
